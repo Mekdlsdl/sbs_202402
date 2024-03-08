@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mundain/Unity/GitHub/sbs_202402/Day3/20240216_1/main02'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F00, symSize: 0x4C }
+  - { offsetInCU: 0x2C79, offset: 0x2C79, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F00, symSize: 0x4C }
+...

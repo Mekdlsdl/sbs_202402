@@ -2,13 +2,16 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
 
     printf("1. 별찍기 4종\n");
     printf("- 1종\n");
 
-    for (int i = 1; i < 6; i++) {
-        for (int j = 0; j < i; j++) {
+    for (int i = 1; i < 6; i++) 
+    {
+        for (int j = 0; j < i; j++) 
+        {
             printf("*");
         }
         printf("\n");
@@ -16,12 +19,15 @@ int main() {
 
     printf("\n- 2종\n");
 
-    for (int i = 1; i < 6; i++) {
-        for (int j = 0; j < 6 - i; j++) {
+    for (int i = 1; i < 6; i++) 
+    {
+        for (int j = 0; j < 6 - i; j++) 
+        {
             printf(" ");
         }
 
-        for (int k = 0; k < i; k++) {
+        for (int k = 0; k < i; k++) 
+        {
             printf("*");
         }
         printf("\n");
@@ -29,8 +35,10 @@ int main() {
 
     printf("\n- 3종\n");
 
-    for (int i = 1; i < 6; i++) {
-        for (int j = 0; j < 6 - i; j++) {
+    for (int i = 1; i < 6; i++) 
+    {
+        for (int j = 0; j < 6 - i; j++) 
+        {
             printf("*");
         }
         printf("\n");
@@ -38,12 +46,15 @@ int main() {
 
     printf("\n- 4종\n");
 
-    for (int i = 1; i < 6; i++) {
-        for (int j = 0; j < i; j++) {
+    for (int i = 1; i < 6; i++) 
+    {
+        for (int j = 0; j < i; j++) 
+        {
             printf(" ");
         }
 
-        for (int k = 0; k < 6 - i; k++) {
+        for (int k = 0; k < 6 - i; k++) 
+        {
             printf("*");
         }
         printf("\n");
